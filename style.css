@@ -85,5 +85,63 @@ nav a {
     align-items: center;
 }
 
+#about {
+    text-align: center;
+    justify-content: center;
+    padding: 50px 15%;
+}
+
+#professionalexp {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px 5%;
+}
+
+#exp-red-area-title {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#exp-red-area-title, h1 {
+    font-size: 30px;
+}
+
+#exp-red-area-timeframe {
+    text-align: left;
+    justify-content: left;
+    font-weight: bold;
+}
+#exp-red-area-main-content {
+    display: flex;
+
+}
+
+#exp-red-area-description-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#exp-red-area-image-right {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+#exp-red-area-image-right img {
+    max-width: 80%;
+    max-height: 80%;
+    aspect-ratio: auto;
+}
+
+#exp-red-area {
+    background-color: #661b1c;
+    border-radius: 80px;
+    padding: 1% 1%;
+}
+
 
 
