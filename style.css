@@ -134,7 +134,6 @@ nav a {
 #exp-red-area-image-right img {
     max-width: 80%;
     max-height: 80%;
-    aspect-ratio: auto;
 }
 
 #exp-red-area {
@@ -143,5 +142,113 @@ nav a {
     padding: 1% 1%;
 }
 
+#projects {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 5%;
+}
 
+#row-one {
+    display: flex;
+    gap: 60px;
+}
+
+#project-one, #project-two {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #661b1c;
+    min-height: 700px;
+    width: 100%;
+    position: relative
+}
+
+#project-one-image img {
+    max-width: 100%;
+    object-fit: contain
+    overflow: hidden;
+}
+
+#project-two-image img {
+    max-width: 100%;
+    object-fit: contain
+    overflow: hidden;
+}
+
+#project-one-category {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #531516;
+    border-radius: 12px;
+    padding: 2px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    opacity: 0.8;
+}
+
+#project-two-category {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #531516;
+    border-radius: 12px;
+    padding: 2px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    opacity: 0.8;
+}
+
+
+#project-one-description p {
+    font-weight: normal;
+    display: inline-block
+    line-height: 1.6
+}
+
+#project-two-description p {
+    font-weight: normal;
+    display: inline-block
+    line-height: 1.6
+}
+
+@media (max-width: 900px) {
+  #row-one {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #project-one, #project-two {
+    width: 100%;
+  }
+
+}
+
+#project-one button {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    background-color: #1b222c;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#project-two button {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    background-color: #1b222c;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a3f46;
+  transform: translateY(-2px);
+  transition: background-color 0.2s ease;
+}
 
