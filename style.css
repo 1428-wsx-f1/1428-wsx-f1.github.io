@@ -252,3 +252,43 @@ button:hover {
   transition: background-color 0.2s ease;
 }
 
+
+#skills {
+ text-align: center;
+}
+
+#skills {
+ text-align: center;
+}
+
+.technical-skill-grid {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.technical-skill-container {
+  flex: 0 0 30%;
+}
+
+@media (max-width: 600px) {
+    .technical-skill-container {
+        flex: 0 0 40%;
+    }
+}
+
+
+.technical-skill-title {
+    text-align: center;
+    padding: 10px;
+    background-color: #661b1c;
+    border-radius: 10px;
+}
+
+.technical-skill-content ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+
