@@ -153,14 +153,15 @@ nav a {
     padding: 20px 5%;
 }
 
-#row-one {
+.project-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
+    justify-content: center;
 }
 
-#project-one, #project-two {
-    flex-basis: 0;
-    flex-grow: 1;
+.project-card {
+    flex: 0 0 40%;
     padding: 10px;
     background-color: #661b1c;
     min-height: 700px;
@@ -168,19 +169,14 @@ nav a {
     position: relative
 }
 
-#project-one-image img {
+.project-image img {
     max-width: 100%;
     object-fit: contain
     overflow: hidden;
 }
 
-#project-two-image img {
-    max-width: 100%;
-    object-fit: contain
-    overflow: hidden;
-}
 
-#project-one-category {
+.project-category {
     position: absolute;
     top: 12px;
     left: 12px;
@@ -191,25 +187,7 @@ nav a {
     opacity: 0.8;
 }
 
-#project-two-category {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    background-color: #531516;
-    border-radius: 12px;
-    padding: 2px 2px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    opacity: 0.8;
-}
-
-
-#project-one-description p {
-    font-weight: normal;
-    display: inline-block
-    line-height: 1.6
-}
-
-#project-two-description p {
+.project-description p {
     font-weight: normal;
     display: inline-block
     line-height: 1.6
@@ -227,19 +205,7 @@ nav a {
 
 }
 
-#project-one button {
-    margin-top: 20px;
-    font-weight: bold;
-    color: white;
-    font-size: 30px;
-    background-color: #1b222c;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-#project-two button {
+.project-card button {
     margin-top: 20px;
     font-weight: bold;
     color: white;
