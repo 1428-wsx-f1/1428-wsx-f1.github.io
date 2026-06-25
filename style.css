@@ -38,6 +38,11 @@ body {
     min-width: 400px;
 }
 
+#hero button a {
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
 #hero-left {
     max-width: 1100px;
     flex-grow: 1;
