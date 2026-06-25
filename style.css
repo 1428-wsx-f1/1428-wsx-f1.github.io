@@ -368,4 +368,18 @@ button:hover {
     }
 }
 
+#contact {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px 5%;
+}
+
+#contact-area {
+    padding: 20px 5%;
+    background-color: #661b1c;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
 
