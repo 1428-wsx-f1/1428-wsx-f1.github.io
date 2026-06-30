@@ -47,6 +47,8 @@ body {
     border: none;
     min-width: 400px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    transition: transform 0.2s ease-in-out;
+
 }
 
 #hero button a {
@@ -257,6 +259,7 @@ button:hover {
   background-color: #3a3f46;
   transform: translateY(-2px);
   transition: background-color 0.2s ease;
+  transform: scale(1.03);
 }
 
 
