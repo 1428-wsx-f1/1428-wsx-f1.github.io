@@ -76,16 +76,39 @@ nav a {
     font-size: 30px;
 }
 
-#name {
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-}
-
 #other-links {
     display: flex;
     margin-left: auto;
     gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-button {
+  display: none;
+  border: none;
+}
+
+@media (max-width: 900px) {
+  .hamburger-button {
+    display: block;
+        align-self: center;
+        width: 45px;
+        height: 45px;
+        margin-left: auto;
+  }
+
+  #other-links {
+    display: none;
+  }
+  #other-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#name {
+    font-weight: bold;
     justify-content: center;
     align-items: center;
 }
