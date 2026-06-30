@@ -42,6 +42,7 @@ body {
     outline: none;
     border: none;
     min-width: 400px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
 
 #hero button a {
@@ -171,9 +172,10 @@ nav a {
 }
 
 #exp-red-area {
-    background-color: #661b1c;
+    background-image: linear-gradient(to right, #661b1c , #702c2dff);
     border-radius: 80px;
     padding: 1% 1%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.9);
 }
 
 #projects {
@@ -192,7 +194,8 @@ nav a {
 .project-card {
     flex: 0 0 40%;
     padding: 10px;
-    background-color: #661b1c;
+    background-image: linear-gradient(to right, #661b1c , #702c2dff);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.9);
     min-height: 700px;
     width: 100%;
     position: relative
@@ -270,6 +273,7 @@ button:hover {
 
 .technical-skill-container {
   flex: 0 0 30%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.9);
 }
 
 @media (max-width: 600px) {
@@ -282,7 +286,8 @@ button:hover {
 .technical-skill-title {
     text-align: center;
     padding: 10px;
-    background-color: #661b1c;
+    background-image: linear-gradient(to right, #661b1c , #702c2dff);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
     border-radius: 10px;
 }
 
@@ -304,9 +309,10 @@ button:hover {
 }
 
 #education-area {
-    background-color: #661b1c;
+    background-image: linear-gradient(to right, #661b1c , #702c2dff);
     border-radius: 80px;
     padding: 1% 1%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.9);
 }
 
 #education-title-and-year {
@@ -350,6 +356,7 @@ button:hover {
 .education-degree-key-coursework-card {
     flex: 0 0 20%;
     background-color: #1b222c;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
     text-align: center;
     border-radius: 80px;
 }
@@ -377,7 +384,8 @@ button:hover {
 
 #contact-area {
     padding: 20px 5%;
-    background-color: #661b1c;
+    background-image: linear-gradient(to right, #661b1c , #702c2dff);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.9);
     font-size: 20px;
     max-width: 500px;
     margin: 0 auto;
